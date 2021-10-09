@@ -1,0 +1,1060 @@
+<group> trigger=attack loop_mode=one_shot group=1 off_by=1 off_mode=normal sample=enter_0.wav pitch_random=100 volume=-3 amp_random=6 ampeg_release=1.0
+<region> key=28
+
+<group> trigger=attack sample=shift_press.wav pitch_random=100 volume=-6 amp_random=6 ampeg_release=0.2
+<region> key=29 pan=-50 // Ctrl L
+<region> key=42 pan=-50 // Shift L
+<region> key=54 pan=50 // Shift R
+<region> key=56 pan=-50 // Alt L
+<region> key=58 pan=-50 // Caps Lock
+<region> key=97 pan=50 // Ctrl R
+<region> key=100 pan=50 // Alt R
+
+<group> trigger=release sample=shift_release.wav pitch_random=100 volume=-12 amp_random=6 ampeg_release=0.2
+<region> key=29 pan=-50 // Ctrl L
+<region> key=42 pan=-50 // Shift L
+<region> key=54 pan=50 // Shift R
+<region> key=56 pan=-50 // Alt L
+<region> key=58 pan=-50 // Caps Lock
+<region> key=97 pan=50 // Ctrl R
+<region> key=100 pan=50 // Alt R
+
+<group> trigger=attack group=1 seq_length=4 seq_position=1 sample=press_0.wav pitch_random=100 volume=-3 amp_random=6 ampeg_release=0.2
+<region> key=0
+<region> key=1 pan=-84 // esc
+<region> key=2 pan=-72 // 1
+<region> key=3 pan=-60
+<region> key=4 pan=-48
+<region> key=5 pan=-36
+<region> key=6 pan=-24
+<region> key=7 pan=-12
+<region> key=8 pan=0
+<region> key=9 pan=12
+<region> key=10 pan=24 // 9
+<region> key=11 pan=36 // 0
+<region> key=12
+<region> key=13
+<region> key=14 sample=backspace_press.wav
+<region> key=15
+<region> key=16 pan=-66 // Q
+<region> key=17 pan=-54
+<region> key=18 pan=-42
+<region> key=19 pan=-30
+<region> key=20 pan=-18
+<region> key=21 pan=-6
+<region> key=22 pan=6
+<region> key=23 pan=18
+<region> key=24 pan=30
+<region> key=25 pan=42 // P
+<region> key=26
+<region> key=27
+//<region> key=28 // enter
+//<region> key=29
+<region> key=30 pan=-63 // A
+<region> key=31 pan=-51
+<region> key=32 pan=-39
+<region> key=33 pan=-27
+<region> key=34 pan=-15
+<region> key=35 pan=-3
+<region> key=36 pan=9
+<region> key=37 pan=21
+<region> key=38 pan=33 // L
+<region> key=39 pan=45 // ;
+<region> key=40
+<region> key=41
+//<region> key=42
+<region> key=43
+<region> key=44 pan=-57 // Z
+<region> key=45 pan=-45
+<region> key=46 pan=-33
+<region> key=47 pan=-21
+<region> key=48 pan=-9
+<region> key=49 pan=3
+<region> key=50 pan=15 // M
+<region> key=51 pan=27 // ,
+<region> key=52 pan=39 // .
+<region> key=53 pan=51 // /
+//<region> key=54
+<region> key=55
+//<region> key=56
+<region> key=57 sample=space_press.wav
+//<region> key=58
+<region> key=59
+<region> key=60
+<region> key=61
+<region> key=62
+<region> key=63
+<region> key=64
+<region> key=65
+<region> key=66
+<region> key=67
+<region> key=68
+<region> key=69
+<region> key=70
+<region> key=71
+<region> key=72
+<region> key=73
+<region> key=74
+<region> key=75
+<region> key=76
+<region> key=77
+<region> key=78
+<region> key=79
+<region> key=80
+<region> key=81
+<region> key=82
+<region> key=83
+<region> key=84
+<region> key=85
+<region> key=86
+<region> key=87
+<region> key=88
+<region> key=89
+<region> key=90
+<region> key=91
+<region> key=92
+<region> key=93
+<region> key=94
+<region> key=95
+<region> key=96
+//<region> key=97
+<region> key=98
+<region> key=99
+//<region> key=100
+<region> key=101
+<region> key=102
+<region> key=103
+<region> key=104
+<region> key=105
+<region> key=106
+<region> key=107
+<region> key=108
+<region> key=109
+<region> key=110
+<region> key=111
+<region> key=112
+<region> key=113
+<region> key=114
+<region> key=115
+<region> key=116
+<region> key=117
+<region> key=118
+<region> key=119
+<region> key=120
+<region> key=121
+<region> key=122
+<region> key=123
+<region> key=124
+<region> key=125
+<region> key=126
+<region> key=127
+
+<group> trigger=attack group=1 seq_length=4 seq_position=2 sample=press_1.wav pitch_random=100 volume=-3 amp_random=6 ampeg_release=0.2
+<region> key=0
+<region> key=1 pan=-84 // esc
+<region> key=2 pan=-72 // 1
+<region> key=3 pan=-60
+<region> key=4 pan=-48
+<region> key=5 pan=-36
+<region> key=6 pan=-24
+<region> key=7 pan=-12
+<region> key=8 pan=0
+<region> key=9 pan=12
+<region> key=10 pan=24 // 9
+<region> key=11 pan=36 // 0
+<region> key=12
+<region> key=13
+<region> key=14 sample=backspace_press.wav
+<region> key=15
+<region> key=16 pan=-66 // Q
+<region> key=17 pan=-54
+<region> key=18 pan=-42
+<region> key=19 pan=-30
+<region> key=20 pan=-18
+<region> key=21 pan=-6
+<region> key=22 pan=6
+<region> key=23 pan=18
+<region> key=24 pan=30
+<region> key=25 pan=42 // P
+<region> key=26
+<region> key=27
+//<region> key=28 // enter
+//<region> key=29
+<region> key=30 pan=-63 // A
+<region> key=31 pan=-51
+<region> key=32 pan=-39
+<region> key=33 pan=-27
+<region> key=34 pan=-15
+<region> key=35 pan=-3
+<region> key=36 pan=9
+<region> key=37 pan=21
+<region> key=38 pan=33 // L
+<region> key=39 pan=45 // ;
+<region> key=40
+<region> key=41
+//<region> key=42
+<region> key=43
+<region> key=44 pan=-57 // Z
+<region> key=45 pan=-45
+<region> key=46 pan=-33
+<region> key=47 pan=-21
+<region> key=48 pan=-9
+<region> key=49 pan=3
+<region> key=50 pan=15 // M
+<region> key=51 pan=27 // ,
+<region> key=52 pan=39 // .
+<region> key=53 pan=51 // /
+//<region> key=54
+<region> key=55
+//<region> key=56
+<region> key=57 sample=space_press.wav
+//<region> key=58
+<region> key=59
+<region> key=60
+<region> key=61
+<region> key=62
+<region> key=63
+<region> key=64
+<region> key=65
+<region> key=66
+<region> key=67
+<region> key=68
+<region> key=69
+<region> key=70
+<region> key=71
+<region> key=72
+<region> key=73
+<region> key=74
+<region> key=75
+<region> key=76
+<region> key=77
+<region> key=78
+<region> key=79
+<region> key=80
+<region> key=81
+<region> key=82
+<region> key=83
+<region> key=84
+<region> key=85
+<region> key=86
+<region> key=87
+<region> key=88
+<region> key=89
+<region> key=90
+<region> key=91
+<region> key=92
+<region> key=93
+<region> key=94
+<region> key=95
+<region> key=96
+//<region> key=97
+<region> key=98
+<region> key=99
+//<region> key=100
+<region> key=101
+<region> key=102
+<region> key=103
+<region> key=104
+<region> key=105
+<region> key=106
+<region> key=107
+<region> key=108
+<region> key=109
+<region> key=110
+<region> key=111
+<region> key=112
+<region> key=113
+<region> key=114
+<region> key=115
+<region> key=116
+<region> key=117
+<region> key=118
+<region> key=119
+<region> key=120
+<region> key=121
+<region> key=122
+<region> key=123
+<region> key=124
+<region> key=125
+<region> key=126
+<region> key=127
+
+<group> trigger=attack group=1 seq_length=4 seq_position=3 sample=press_2.wav pitch_random=100 volume=-3 amp_random=6 ampeg_release=0.2
+<region> key=0
+<region> key=1 pan=-84 // esc
+<region> key=2 pan=-72 // 1
+<region> key=3 pan=-60
+<region> key=4 pan=-48
+<region> key=5 pan=-36
+<region> key=6 pan=-24
+<region> key=7 pan=-12
+<region> key=8 pan=0
+<region> key=9 pan=12
+<region> key=10 pan=24 // 9
+<region> key=11 pan=36 // 0
+<region> key=12
+<region> key=13
+<region> key=14 sample=backspace_press.wav
+<region> key=15
+<region> key=16 pan=-66 // Q
+<region> key=17 pan=-54
+<region> key=18 pan=-42
+<region> key=19 pan=-30
+<region> key=20 pan=-18
+<region> key=21 pan=-6
+<region> key=22 pan=6
+<region> key=23 pan=18
+<region> key=24 pan=30
+<region> key=25 pan=42 // P
+<region> key=26
+<region> key=27
+//<region> key=28 // enter
+//<region> key=29
+<region> key=30 pan=-63 // A
+<region> key=31 pan=-51
+<region> key=32 pan=-39
+<region> key=33 pan=-27
+<region> key=34 pan=-15
+<region> key=35 pan=-3
+<region> key=36 pan=9
+<region> key=37 pan=21
+<region> key=38 pan=33 // L
+<region> key=39 pan=45 // ;
+<region> key=40
+<region> key=41
+//<region> key=42
+<region> key=43
+<region> key=44 pan=-57 // Z
+<region> key=45 pan=-45
+<region> key=46 pan=-33
+<region> key=47 pan=-21
+<region> key=48 pan=-9
+<region> key=49 pan=3
+<region> key=50 pan=15 // M
+<region> key=51 pan=27 // ,
+<region> key=52 pan=39 // .
+<region> key=53 pan=51 // /
+//<region> key=54
+<region> key=55
+//<region> key=56
+<region> key=57 sample=space_press.wav
+//<region> key=58
+<region> key=59
+<region> key=60
+<region> key=61
+<region> key=62
+<region> key=63
+<region> key=64
+<region> key=65
+<region> key=66
+<region> key=67
+<region> key=68
+<region> key=69
+<region> key=70
+<region> key=71
+<region> key=72
+<region> key=73
+<region> key=74
+<region> key=75
+<region> key=76
+<region> key=77
+<region> key=78
+<region> key=79
+<region> key=80
+<region> key=81
+<region> key=82
+<region> key=83
+<region> key=84
+<region> key=85
+<region> key=86
+<region> key=87
+<region> key=88
+<region> key=89
+<region> key=90
+<region> key=91
+<region> key=92
+<region> key=93
+<region> key=94
+<region> key=95
+<region> key=96
+//<region> key=97
+<region> key=98
+<region> key=99
+//<region> key=100
+<region> key=101
+<region> key=102
+<region> key=103
+<region> key=104
+<region> key=105
+<region> key=106
+<region> key=107
+<region> key=108
+<region> key=109
+<region> key=110
+<region> key=111
+<region> key=112
+<region> key=113
+<region> key=114
+<region> key=115
+<region> key=116
+<region> key=117
+<region> key=118
+<region> key=119
+<region> key=120
+<region> key=121
+<region> key=122
+<region> key=123
+<region> key=124
+<region> key=125
+<region> key=126
+<region> key=127
+
+<group> trigger=attack group=1 seq_length=4 seq_position=4 sample=press_3.wav pitch_random=100 volume=-3 amp_random=6 ampeg_release=0.2
+<region> key=0
+<region> key=1 pan=-84 // esc
+<region> key=2 pan=-72 // 1
+<region> key=3 pan=-60
+<region> key=4 pan=-48
+<region> key=5 pan=-36
+<region> key=6 pan=-24
+<region> key=7 pan=-12
+<region> key=8 pan=0
+<region> key=9 pan=12
+<region> key=10 pan=24 // 9
+<region> key=11 pan=36 // 0
+<region> key=12
+<region> key=13
+<region> key=14 sample=backspace_press.wav
+<region> key=15
+<region> key=16 pan=-66 // Q
+<region> key=17 pan=-54
+<region> key=18 pan=-42
+<region> key=19 pan=-30
+<region> key=20 pan=-18
+<region> key=21 pan=-6
+<region> key=22 pan=6
+<region> key=23 pan=18
+<region> key=24 pan=30
+<region> key=25 pan=42 // P
+<region> key=26
+<region> key=27
+//<region> key=28 // enter
+//<region> key=29
+<region> key=30 pan=-63 // A
+<region> key=31 pan=-51
+<region> key=32 pan=-39
+<region> key=33 pan=-27
+<region> key=34 pan=-15
+<region> key=35 pan=-3
+<region> key=36 pan=9
+<region> key=37 pan=21
+<region> key=38 pan=33 // L
+<region> key=39 pan=45 // ;
+<region> key=40
+<region> key=41
+//<region> key=42
+<region> key=43
+<region> key=44 pan=-57 // Z
+<region> key=45 pan=-45
+<region> key=46 pan=-33
+<region> key=47 pan=-21
+<region> key=48 pan=-9
+<region> key=49 pan=3
+<region> key=50 pan=15 // M
+<region> key=51 pan=27 // ,
+<region> key=52 pan=39 // .
+<region> key=53 pan=51 // /
+//<region> key=54
+<region> key=55
+//<region> key=56
+<region> key=57 sample=space_press.wav
+//<region> key=58
+<region> key=59
+<region> key=60
+<region> key=61
+<region> key=62
+<region> key=63
+<region> key=64
+<region> key=65
+<region> key=66
+<region> key=67
+<region> key=68
+<region> key=69
+<region> key=70
+<region> key=71
+<region> key=72
+<region> key=73
+<region> key=74
+<region> key=75
+<region> key=76
+<region> key=77
+<region> key=78
+<region> key=79
+<region> key=80
+<region> key=81
+<region> key=82
+<region> key=83
+<region> key=84
+<region> key=85
+<region> key=86
+<region> key=87
+<region> key=88
+<region> key=89
+<region> key=90
+<region> key=91
+<region> key=92
+<region> key=93
+<region> key=94
+<region> key=95
+<region> key=96
+//<region> key=97
+<region> key=98
+<region> key=99
+//<region> key=100
+<region> key=101
+<region> key=102
+<region> key=103
+<region> key=104
+<region> key=105
+<region> key=106
+<region> key=107
+<region> key=108
+<region> key=109
+<region> key=110
+<region> key=111
+<region> key=112
+<region> key=113
+<region> key=114
+<region> key=115
+<region> key=116
+<region> key=117
+<region> key=118
+<region> key=119
+<region> key=120
+<region> key=121
+<region> key=122
+<region> key=123
+<region> key=124
+<region> key=125
+<region> key=126
+<region> key=127
+
+<group> trigger=release seq_length=4 seq_position=1 sample=release_0.wav pitch_random=100 volume=-9 amp_random=6 ampeg_release=0.2
+<region> key=0
+<region> key=1 pan=-84 // esc
+<region> key=2 pan=-72 // 1
+<region> key=3 pan=-60
+<region> key=4 pan=-48
+<region> key=5 pan=-36
+<region> key=6 pan=-24
+<region> key=7 pan=-12
+<region> key=8 pan=0
+<region> key=9 pan=12
+<region> key=10 pan=24 // 9
+<region> key=11 pan=36 // 0
+<region> key=12
+<region> key=13
+<region> key=14 sample=backspace_release.wav
+<region> key=15
+<region> key=16 pan=-66 // Q
+<region> key=17 pan=-54
+<region> key=18 pan=-42
+<region> key=19 pan=-30
+<region> key=20 pan=-18
+<region> key=21 pan=-6
+<region> key=22 pan=6
+<region> key=23 pan=18
+<region> key=24 pan=30
+<region> key=25 pan=42 // P
+<region> key=26
+<region> key=27
+//<region> key=28 // enter
+//<region> key=29
+<region> key=30 pan=-63 // A
+<region> key=31 pan=-51
+<region> key=32 pan=-39
+<region> key=33 pan=-27
+<region> key=34 pan=-15
+<region> key=35 pan=-3
+<region> key=36 pan=9
+<region> key=37 pan=21
+<region> key=38 pan=33 // L
+<region> key=39 pan=45 // ;
+<region> key=40
+<region> key=41
+//<region> key=42
+<region> key=43
+<region> key=44 pan=-57 // Z
+<region> key=45 pan=-45
+<region> key=46 pan=-33
+<region> key=47 pan=-21
+<region> key=48 pan=-9
+<region> key=49 pan=3
+<region> key=50 pan=15 // M
+<region> key=51 pan=27 // ,
+<region> key=52 pan=39 // .
+<region> key=53 pan=51 // /
+//<region> key=54
+<region> key=55
+//<region> key=56
+<region> key=57 sample=space_release.wav
+//<region> key=58
+<region> key=59
+<region> key=60
+<region> key=61
+<region> key=62
+<region> key=63
+<region> key=64
+<region> key=65
+<region> key=66
+<region> key=67
+<region> key=68
+<region> key=69
+<region> key=70
+<region> key=71
+<region> key=72
+<region> key=73
+<region> key=74
+<region> key=75
+<region> key=76
+<region> key=77
+<region> key=78
+<region> key=79
+<region> key=80
+<region> key=81
+<region> key=82
+<region> key=83
+<region> key=84
+<region> key=85
+<region> key=86
+<region> key=87
+<region> key=88
+<region> key=89
+<region> key=90
+<region> key=91
+<region> key=92
+<region> key=93
+<region> key=94
+<region> key=95
+<region> key=96
+//<region> key=97
+<region> key=98
+<region> key=99
+//<region> key=100
+<region> key=101
+<region> key=102
+<region> key=103
+<region> key=104
+<region> key=105
+<region> key=106
+<region> key=107
+<region> key=108
+<region> key=109
+<region> key=110
+<region> key=111
+<region> key=112
+<region> key=113
+<region> key=114
+<region> key=115
+<region> key=116
+<region> key=117
+<region> key=118
+<region> key=119
+<region> key=120
+<region> key=121
+<region> key=122
+<region> key=123
+<region> key=124
+<region> key=125
+<region> key=126
+<region> key=127
+
+<group> trigger=release seq_length=4 seq_position=2 sample=release_1.wav pitch_random=100 volume=-9 amp_random=6 ampeg_release=0.2
+<region> key=0
+<region> key=1 pan=-84 // esc
+<region> key=2 pan=-72 // 1
+<region> key=3 pan=-60
+<region> key=4 pan=-48
+<region> key=5 pan=-36
+<region> key=6 pan=-24
+<region> key=7 pan=-12
+<region> key=8 pan=0
+<region> key=9 pan=12
+<region> key=10 pan=24 // 9
+<region> key=11 pan=36 // 0
+<region> key=12
+<region> key=13
+<region> key=14 sample=backspace_release.wav
+<region> key=15
+<region> key=16 pan=-66 // Q
+<region> key=17 pan=-54
+<region> key=18 pan=-42
+<region> key=19 pan=-30
+<region> key=20 pan=-18
+<region> key=21 pan=-6
+<region> key=22 pan=6
+<region> key=23 pan=18
+<region> key=24 pan=30
+<region> key=25 pan=42 // P
+<region> key=26
+<region> key=27
+//<region> key=28 // enter
+//<region> key=29
+<region> key=30 pan=-63 // A
+<region> key=31 pan=-51
+<region> key=32 pan=-39
+<region> key=33 pan=-27
+<region> key=34 pan=-15
+<region> key=35 pan=-3
+<region> key=36 pan=9
+<region> key=37 pan=21
+<region> key=38 pan=33 // L
+<region> key=39 pan=45 // ;
+<region> key=40
+<region> key=41
+//<region> key=42
+<region> key=43
+<region> key=44 pan=-57 // Z
+<region> key=45 pan=-45
+<region> key=46 pan=-33
+<region> key=47 pan=-21
+<region> key=48 pan=-9
+<region> key=49 pan=3
+<region> key=50 pan=15 // M
+<region> key=51 pan=27 // ,
+<region> key=52 pan=39 // .
+<region> key=53 pan=51 // /
+//<region> key=54
+<region> key=55
+//<region> key=56
+<region> key=57 sample=space_release.wav
+//<region> key=58
+<region> key=59
+<region> key=60
+<region> key=61
+<region> key=62
+<region> key=63
+<region> key=64
+<region> key=65
+<region> key=66
+<region> key=67
+<region> key=68
+<region> key=69
+<region> key=70
+<region> key=71
+<region> key=72
+<region> key=73
+<region> key=74
+<region> key=75
+<region> key=76
+<region> key=77
+<region> key=78
+<region> key=79
+<region> key=80
+<region> key=81
+<region> key=82
+<region> key=83
+<region> key=84
+<region> key=85
+<region> key=86
+<region> key=87
+<region> key=88
+<region> key=89
+<region> key=90
+<region> key=91
+<region> key=92
+<region> key=93
+<region> key=94
+<region> key=95
+<region> key=96
+//<region> key=97
+<region> key=98
+<region> key=99
+//<region> key=100
+<region> key=101
+<region> key=102
+<region> key=103
+<region> key=104
+<region> key=105
+<region> key=106
+<region> key=107
+<region> key=108
+<region> key=109
+<region> key=110
+<region> key=111
+<region> key=112
+<region> key=113
+<region> key=114
+<region> key=115
+<region> key=116
+<region> key=117
+<region> key=118
+<region> key=119
+<region> key=120
+<region> key=121
+<region> key=122
+<region> key=123
+<region> key=124
+<region> key=125
+<region> key=126
+<region> key=127
+
+<group> trigger=release seq_length=4 seq_position=3 sample=release_2.wav pitch_random=100 volume=-9 amp_random=6 ampeg_release=0.2
+<region> key=0
+<region> key=1 pan=-84 // esc
+<region> key=2 pan=-72 // 1
+<region> key=3 pan=-60
+<region> key=4 pan=-48
+<region> key=5 pan=-36
+<region> key=6 pan=-24
+<region> key=7 pan=-12
+<region> key=8 pan=0
+<region> key=9 pan=12
+<region> key=10 pan=24 // 9
+<region> key=11 pan=36 // 0
+<region> key=12
+<region> key=13
+<region> key=14 sample=backspace_release.wav
+<region> key=15
+<region> key=16 pan=-66 // Q
+<region> key=17 pan=-54
+<region> key=18 pan=-42
+<region> key=19 pan=-30
+<region> key=20 pan=-18
+<region> key=21 pan=-6
+<region> key=22 pan=6
+<region> key=23 pan=18
+<region> key=24 pan=30
+<region> key=25 pan=42 // P
+<region> key=26
+<region> key=27
+//<region> key=28 // enter
+//<region> key=29
+<region> key=30 pan=-63 // A
+<region> key=31 pan=-51
+<region> key=32 pan=-39
+<region> key=33 pan=-27
+<region> key=34 pan=-15
+<region> key=35 pan=-3
+<region> key=36 pan=9
+<region> key=37 pan=21
+<region> key=38 pan=33 // L
+<region> key=39 pan=45 // ;
+<region> key=40
+<region> key=41
+//<region> key=42
+<region> key=43
+<region> key=44 pan=-57 // Z
+<region> key=45 pan=-45
+<region> key=46 pan=-33
+<region> key=47 pan=-21
+<region> key=48 pan=-9
+<region> key=49 pan=3
+<region> key=50 pan=15 // M
+<region> key=51 pan=27 // ,
+<region> key=52 pan=39 // .
+<region> key=53 pan=51 // /
+//<region> key=54
+<region> key=55
+//<region> key=56
+<region> key=57 sample=space_release.wav
+//<region> key=58
+<region> key=59
+<region> key=60
+<region> key=61
+<region> key=62
+<region> key=63
+<region> key=64
+<region> key=65
+<region> key=66
+<region> key=67
+<region> key=68
+<region> key=69
+<region> key=70
+<region> key=71
+<region> key=72
+<region> key=73
+<region> key=74
+<region> key=75
+<region> key=76
+<region> key=77
+<region> key=78
+<region> key=79
+<region> key=80
+<region> key=81
+<region> key=82
+<region> key=83
+<region> key=84
+<region> key=85
+<region> key=86
+<region> key=87
+<region> key=88
+<region> key=89
+<region> key=90
+<region> key=91
+<region> key=92
+<region> key=93
+<region> key=94
+<region> key=95
+<region> key=96
+//<region> key=97
+<region> key=98
+<region> key=99
+//<region> key=100
+<region> key=101
+<region> key=102
+<region> key=103
+<region> key=104
+<region> key=105
+<region> key=106
+<region> key=107
+<region> key=108
+<region> key=109
+<region> key=110
+<region> key=111
+<region> key=112
+<region> key=113
+<region> key=114
+<region> key=115
+<region> key=116
+<region> key=117
+<region> key=118
+<region> key=119
+<region> key=120
+<region> key=121
+<region> key=122
+<region> key=123
+<region> key=124
+<region> key=125
+<region> key=126
+<region> key=127
+
+<group> trigger=release seq_length=4 seq_position=4 sample=release_3.wav pitch_random=100 volume=-9 amp_random=6 ampeg_release=0.2
+<region> key=0
+<region> key=1 pan=-84 // esc
+<region> key=2 pan=-72 // 1
+<region> key=3 pan=-60
+<region> key=4 pan=-48
+<region> key=5 pan=-36
+<region> key=6 pan=-24
+<region> key=7 pan=-12
+<region> key=8 pan=0
+<region> key=9 pan=12
+<region> key=10 pan=24 // 9
+<region> key=11 pan=36 // 0
+<region> key=12
+<region> key=13
+<region> key=14 sample=backspace_release.wav
+<region> key=15
+<region> key=16 pan=-66 // Q
+<region> key=17 pan=-54
+<region> key=18 pan=-42
+<region> key=19 pan=-30
+<region> key=20 pan=-18
+<region> key=21 pan=-6
+<region> key=22 pan=6
+<region> key=23 pan=18
+<region> key=24 pan=30
+<region> key=25 pan=42 // P
+<region> key=26
+<region> key=27
+//<region> key=28 // enter
+//<region> key=29
+<region> key=30 pan=-63 // A
+<region> key=31 pan=-51
+<region> key=32 pan=-39
+<region> key=33 pan=-27
+<region> key=34 pan=-15
+<region> key=35 pan=-3
+<region> key=36 pan=9
+<region> key=37 pan=21
+<region> key=38 pan=33 // L
+<region> key=39 pan=45 // ;
+<region> key=40
+<region> key=41
+//<region> key=42
+<region> key=43
+<region> key=44 pan=-57 // Z
+<region> key=45 pan=-45
+<region> key=46 pan=-33
+<region> key=47 pan=-21
+<region> key=48 pan=-9
+<region> key=49 pan=3
+<region> key=50 pan=15 // M
+<region> key=51 pan=27 // ,
+<region> key=52 pan=39 // .
+<region> key=53 pan=51 // /
+//<region> key=54
+<region> key=55
+//<region> key=56
+<region> key=57 sample=space_release.wav
+//<region> key=58
+<region> key=59
+<region> key=60
+<region> key=61
+<region> key=62
+<region> key=63
+<region> key=64
+<region> key=65
+<region> key=66
+<region> key=67
+<region> key=68
+<region> key=69
+<region> key=70
+<region> key=71
+<region> key=72
+<region> key=73
+<region> key=74
+<region> key=75
+<region> key=76
+<region> key=77
+<region> key=78
+<region> key=79
+<region> key=80
+<region> key=81
+<region> key=82
+<region> key=83
+<region> key=84
+<region> key=85
+<region> key=86
+<region> key=87
+<region> key=88
+<region> key=89
+<region> key=90
+<region> key=91
+<region> key=92
+<region> key=93
+<region> key=94
+<region> key=95
+<region> key=96
+//<region> key=97
+<region> key=98
+<region> key=99
+//<region> key=100
+<region> key=101
+<region> key=102
+<region> key=103
+<region> key=104
+<region> key=105
+<region> key=106
+<region> key=107
+<region> key=108
+<region> key=109
+<region> key=110
+<region> key=111
+<region> key=112
+<region> key=113
+<region> key=114
+<region> key=115
+<region> key=116
+<region> key=117
+<region> key=118
+<region> key=119
+<region> key=120
+<region> key=121
+<region> key=122
+<region> key=123
+<region> key=124
+<region> key=125
+<region> key=126
+<region> key=127

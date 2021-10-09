@@ -1,0 +1,9 @@
+builddir = build
+cxx = c++ -std=c++17 -Wall -Wextra -O3
+
+rule cxx
+    depfile = $out.d
+    command = $cxx -MMD -MF $out.d -o $out $in $extra
+
+build $builddir/typo2midi: cxx src/main.cpp
+    extra = -ljack
