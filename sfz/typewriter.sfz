@@ -1,7 +1,7 @@
 <group> trigger=attack loop_mode=one_shot group=1 off_by=1 off_mode=normal sample=enter_0.wav pitch_random=100 volume=-3 amp_random=6 ampeg_release=1.0
 <region> key=28 // Enter
 
-<group> trigger=attack sample=space_press.wav pitch_random=100 volume=-3 amp_random=6 ampeg_release=0.2
+<group> trigger=attack sample=space_press.wav group=1 pitch_random=100 volume=-3 amp_random=6 ampeg_release=0.2
 <region> key=15 pan=-50 // Tab
 <region> key=57 // Space
 
@@ -9,7 +9,7 @@
 <region> key=15 pan=-50 // Tab
 <region> key=57 // Space
 
-<group> trigger=attack sample=backspace_press.wav pitch_random=100 volume=-3 amp_random=6 ampeg_release=0.2
+<group> trigger=attack sample=backspace_press.wav group=1 pitch_random=100 volume=-3 amp_random=6 ampeg_release=0.2
 <region> key=1 pan=-50 // Escape
 <region> key=14 pan=50 // Backspace
 <region> key=41 pan=-50 // Grave
