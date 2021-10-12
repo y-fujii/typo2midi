@@ -9,13 +9,12 @@ generate typing sounds for live codings, etc.
 ## Build and run
 
     ninja
-    ./build/typo2midi /dev/input/event0
+    ./build/typo2midi
 
-The appropriate device file name can be determined by the
-`libinput list-devices` command.  Note that the device file is usually
-unreadable by the user.  `sudo typo2midi` is not a solution since JACK or
-PipeWire clients must be running on the same user.  Adding the user to `input`
-group solves it on Arch Linux.
+Note that input device files (`/dev/input/event*`) are usually unreadable by
+the normal user.  `sudo typo2midi` is not a solution since JACK or PipeWire
+clients must be running on the same user.  Adding the user to `input` group
+solves it on Arch Linux.
 
 typo2midi simply maps a key code 0 .. 127 to the MIDI note number.  See also
 `/usr/include/linux/input-event-codes.h`.

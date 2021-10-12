@@ -1,9 +1,17 @@
 builddir = build
-cxx = c++ -std=c++17 -Wall -Wextra -O3
+cxx = c++ -std=c++17 -Wall -Wextra -O3 -pthread
 
 rule cxx
     depfile = $out.d
     command = $cxx -MMD -MF $out.d -o $out $in $extra
 
+rule run
+    command = $in
+    pool = console
+
+build run: run $builddir/typo2midi
+
 build $builddir/typo2midi: cxx src/main.cpp
-    extra = -ljack
+    extra = -ljack -linput -ludev
+
+default $builddir/typo2midi
