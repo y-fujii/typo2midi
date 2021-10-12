@@ -65,10 +65,9 @@ struct LibInputReader {
 		if (udev == nullptr) {
 			throw runtime_error("failed to initialize udev.");
 		}
-		libinput_interface interface;
-		interface.open_restricted  = _open_restricted;
-		interface.close_restricted = _close_restricted;
-		_libinput = libinput_udev_create_context(&interface, nullptr, udev);
+		_interface.open_restricted = _open_restricted;
+		_interface.close_restricted = _close_restricted;
+		_libinput = libinput_udev_create_context(&_interface, nullptr, udev);
 		if (_libinput == nullptr) {
 			udev_unref(udev);
 			throw runtime_error("failed to initialize libinput.");
@@ -81,7 +80,6 @@ struct LibInputReader {
 		pollfd fds;
 		fds.fd = libinput_get_fd(_libinput);
 		fds.events = POLLIN;
-		fds.revents = 0;
 		do {
 			libinput_dispatch(_libinput);
 			while (libinput_event *ev = libinput_get_event(_libinput)) {
@@ -116,6 +114,7 @@ private:
 		close(fd);
 	}
 
+	libinput_interface _interface;
 	libinput* _libinput = nullptr;
 };
 
